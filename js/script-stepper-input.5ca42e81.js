@@ -1,0 +1,2 @@
+$(document).ready(function(){!function(){let t=$(".stepper-input");t.each(function(){let t=$(this).find(".stepper-input__input"),e=$(this).find(".stepper-input__container").find("input");console.log(e.attr("value"));let n=$(this).find(".stepper-input__button--left"),i=$(this).find(".stepper-input__button--right");n.click(function(){let n=parseInt(t.text());t.text(n+1),e.attr("value",n+1)}),i.click(function(){let n=parseInt(t.text());n>1&&(t.text(n-1),e.attr("value",n-1))})})}()});
+//# sourceMappingURL=script-stepper-input.5ca42e81.js.map
