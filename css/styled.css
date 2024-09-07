@@ -319,6 +319,14 @@ html {
     top: 60%;
   }
 
+  .home__header {
+    padding-bottom: 15px;
+  }
+
+  .section__hero {
+    padding-top: 70px;
+  }
+
   .section__hero .marquee .first_marq {
     font-size: 146px;
     top: 5%;
